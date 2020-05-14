@@ -1,6 +1,11 @@
 import React from 'react';
+import Form from '../Form/Form';
+import Notes from '../Notes/Notes';
 
 export default function App() {
-  return <h1>Hello World</h1>;
+  return (<>
+    <Form />
+    <Notes/>
+  </>);
 }
   
